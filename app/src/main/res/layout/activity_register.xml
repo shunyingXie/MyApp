@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/register">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_1"
+            android:textColor="#EE6A50"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_2"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/register_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_phone"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical"
+        android:singleLine="true"
+        android:background="@drawable/wedgestyle"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/register_validate_code"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:hint="验证码"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:background="@drawable/wedgestyle"
+            />
+
+        <Button
+            android:id="@+id/register_validate_code_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="获取验证码"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonstyle"  />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_password_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstyle"
+        android:text="@string/security_button"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_text"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/register_backlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/register_button"
+            android:textColor="#EE6A50"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
